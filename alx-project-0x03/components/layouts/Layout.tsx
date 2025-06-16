@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import { PageRouteProps } from "@/interface"; // in index.tsx
+import { PageRouteProps } from "@/interface/index";  // or just "@/interface"
 import { ButtonProps } from "@/interface";    // in Button.tsx
 
 

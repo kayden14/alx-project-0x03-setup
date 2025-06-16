@@ -1,4 +1,5 @@
-import { PageRouteProps } from "@/interface"; // in index.tsx
+import { PageRouteProps } from "@/interface/index";  // or just "@/interface"
+
 import { LayoutProps } from "@/interface";    // in Layout.tsx
 
 interface ButtonProps {

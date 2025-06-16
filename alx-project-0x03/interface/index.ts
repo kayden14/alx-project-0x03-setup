@@ -1,5 +1,4 @@
 // interface/index.ts
-
 import { ReactNode } from "react";
 
 export interface PageRouteProps {

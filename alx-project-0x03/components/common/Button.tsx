@@ -1,3 +1,6 @@
+import { PageRouteProps } from "@/interface"; // in index.tsx
+import { LayoutProps } from "@/interface";    // in Layout.tsx
+
 interface ButtonProps {
   action: () => void;
   buttonLabel: string;

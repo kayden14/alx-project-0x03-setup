@@ -1,6 +1,9 @@
 import { ReactNode } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
+import { PageRouteProps } from "@/interface"; // in index.tsx
+import { ButtonProps } from "@/interface";    // in Button.tsx
+
 
 interface LayoutProps {
   children: ReactNode;

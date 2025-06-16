@@ -1,5 +1,7 @@
 import Button from "@/components/common/Button";
 import { useRouter } from "next/router";
+import { ButtonProps } from "@/interface";    // in Button.tsx
+import { LayoutProps } from "@/interface";    // in Layout.tsx
 
 
 interface PageRouteProps {

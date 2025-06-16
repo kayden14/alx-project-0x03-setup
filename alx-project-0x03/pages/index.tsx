@@ -1,12 +1,6 @@
 import Button from "@/components/common/Button";
 import { useRouter } from "next/router";
-import { ButtonProps } from "@/interface";    // in Button.tsx
-import { LayoutProps } from "@/interface";    // in Layout.tsx
-
-
-interface PageRouteProps {
-  pageRoute: string;
-}
+import { PageRouteProps } from "@/interface";
 
 export default function Home() {
   const router = useRouter();
@@ -48,3 +42,7 @@ export default function Home() {
     </div>
   );
 }
+// This is the main page of the Splash App, which serves as a landing page
+// for users to navigate to different features of the application.
+// It includes a welcome message and buttons to navigate to the "Generate Text AI",
+// "Text to Image", and "Contact us" pages. The buttons use the `Button` component

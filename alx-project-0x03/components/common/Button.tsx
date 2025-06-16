@@ -1,21 +1,15 @@
-import { PageRouteProps } from "@/interface/index";  // or just "@/interface"
-import { LayoutProps } from "@/interface";    // in Layout.tsx
-
-interface ButtonProps {
-  action: () => void;
-  buttonLabel: string;
-  buttonBackgroundColor: string;
-}
+import React from "react";
+import { ButtonProps } from "@/interface";
 
 const Button: React.FC<ButtonProps> = ({
   action,
   buttonLabel,
-  buttonBackgroundColor,
+  buttonBackgroundColor = "blue",
 }) => {
   return (
     <button
       onClick={action}
-      className={`px-6 py-2 text-white font-semibold rounded bg-${buttonBackgroundColor}-500 hover:bg-${buttonBackgroundColor}-600 transition`}
+      className={`bg-${buttonBackgroundColor}-500 hover:bg-${buttonBackgroundColor}-600 text-white font-bold py-2 px-4 rounded`}
     >
       {buttonLabel}
     </button>

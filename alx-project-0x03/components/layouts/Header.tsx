@@ -9,8 +9,8 @@ const Header: React.FC = () => {
           Splash App
         </Link>
         <div className="flex gap-4">
-          <Button buttonLabel="Sign In" buttonBackgroundColor="red" />
-          <Button buttonLabel="Sign Up" buttonBackgroundColor="blue" />
+          <Button buttonLabel="Sign In" buttonBackgroundColor="red" action={() => { /* handle sign in */ }} />
+          <Button buttonLabel="Sign Up" buttonBackgroundColor="blue" action={() => { /* handle sign up */ }} />
         </div>
       </div>
     </header>
